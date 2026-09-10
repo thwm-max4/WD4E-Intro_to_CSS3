@@ -1,0 +1,38 @@
+/* Kiểu chung */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Điều hướng */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Chỉ các hình ảnh nằm trong nav */
+nav img {
+    width: 10%;
+}
+
+/* Bố cục Grid */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Hình ảnh trong Grid */
+.grid img {
+    width: 100%;
+}
+
+/* Bố cục Flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
