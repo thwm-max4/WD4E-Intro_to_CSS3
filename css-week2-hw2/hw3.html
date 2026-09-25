@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khám phá Việt Nam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Khám phá Việt Nam</h1>
+        <p>Những địa điểm du lịch nổi bật</p>
+    </header>
+
+    <main>
+
+        <h2>Hình ảnh</h2>
+
+        <div id="image">
+            Di chuột qua một hình ảnh bên dưới để hiển thị ở đây.
+        </div>
+
+        <div class="grid">
+
+            <img src="https://images.unsplash.com/photo-1528127269322-539801943592?w=600"
+                alt="Phong cảnh Việt Nam"
+                onmouseover="Update(this)"
+                onmouseout="Undo()">
+
+            <img src="https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=600"
+                alt="Địa điểm du lịch"
+                onmouseover="Update(this)"
+                onmouseout="Undo()">
+
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600"
+                alt="Bãi biển"
+                onmouseover="Update(this)"
+                onmouseout="Undo()">
+
+        </div>
+
+    </main>
+
+    <script src="../Khoa3_JavaScrip.js"></script>
+
+</body>
+
+</html>
